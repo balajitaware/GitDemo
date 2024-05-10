@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PL(failed)">
+    <groups>
+      <run>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.Day3">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="mobileLoginCarLoan"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.Day3 -->
+      <class name="test.Day1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="webLoginPL"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.Day1 -->
+    </classes>
+  </test> <!-- PL(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
