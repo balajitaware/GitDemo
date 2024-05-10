@@ -9,6 +9,7 @@ public class ChildClass extends ParentClass{
 	public void childMethod() {
 		parentMethod();
 		System.out.println("This is child method calling parent one.");
+		System.out.println("This is child method calling parent one => Git Push Test.");
 	}
 	
 	@BeforeMethod

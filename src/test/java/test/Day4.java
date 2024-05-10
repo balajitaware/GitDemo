@@ -33,7 +33,7 @@ public class Day4 {
 
 	@Test
 	public void mobileLoginHomeLoan() {
-		System.out.println("Home loan mobile login.");
+		System.out.println("Home loan mobile login.=>Git Push Test");
 	}
 	@Parameters({"URL"})
 	@Test(groups= {"smoke"})
